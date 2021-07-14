@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login_level1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.login_level1 h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.opts_btn{
+  font-size: 30px;
+}
+.opts_btn button{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.login_cred_wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  justify-content: center;
+}
+.login_cred_wrapper h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.login_cred_wrapper form{
+  width: 500px;
+}
+.dash_board_wrapper h1{
+  margin-top: 20px;
+}
+.dashboard_header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2em;
+  align-items: center;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.041);
+  align-content: center;
+  margin-bottom: 20px;
+}
+.profile_disp{
+  border-radius: 10px;
+  background-color: ghostwhite;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.table_wrapper{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+body{
+  background-color: ghostwhite;
+}
+.admin_wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.admin_wrapper h2{
+  font-size: 1.9em;
+}
+
+.admin_opts button{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
